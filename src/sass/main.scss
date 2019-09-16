@@ -1,0 +1,12 @@
+.main {
+    &__content {
+        background: #ffffff;
+        height: 500px;
+        width: 100%;
+        margin-top: -40px;
+        box-shadow: 0 0 10px #33333330;
+        position: relative;
+        border-radius: 3px;
+        z-index: 10;
+    }
+}

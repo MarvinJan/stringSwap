@@ -1,0 +1,12 @@
+.nav {
+    ul {
+        overflow: hidden;
+    }
+    &__button {
+        list-style: none;
+        float: left;
+        padding: 5px 40px;
+        margin-right: -40px;
+        cursor: pointer;
+    }
+}
