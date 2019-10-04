@@ -1,8 +1,7 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Document</title><link rel="stylesheet" href="./css/styles.min.css"><link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Orbitron:900&display=swap" rel="stylesheet"><script src="./js/stringChange.js"></script></head><body><header class="header"><section class="header__top"><div class="header__content-skills"></div></section></header><main class="main"><section class="main__content wrapper"></section></main><script>const changeStrings = new StringSwap(".header__content-skills", [
-        "Angular 7",
-        "HTML5",
-        "CSS3",
-        "ReactJS",
-        "Electron",
-        "Ionic 4"
-      ]).init();</script></body></html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Document</title><link rel="stylesheet" href="./css/styles.min.css"><link href="https://fonts.googleapis.com/css?family=Quicksand:300&display=swap" rel="stylesheet"><script src="./js/stringSwap.js"></script></head><body><header class="header"><section class="header__top"><div class="header__content-skills"></div></section></header><!-- <main class="main">
+      <section class="main__content wrapper"></section>
+    </main> --><script>const changeStrings = new StringSwap(
+        ".header__content-skills",
+        ["Angular 7", "HTML5", "CSS3", "ReactJS", "Electron", "Ionic 4"],
+        { auto_run: true }
+      );</script></body></html>
